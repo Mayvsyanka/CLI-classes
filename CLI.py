@@ -38,7 +38,6 @@ class AddressBook(UserDict, Record):
     def add_record(self, rec):
 
         self.data[rec.name.value] = rec
-        print(self.data)
         return self.data
 
 
